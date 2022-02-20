@@ -34,11 +34,11 @@ dec_temps = session.query(Measurement.date, Measurement.tobs).filter(extract('mo
 
 - The output was converted to lists and two separate DataFrames were created for each of the month. Next, summary statistics were calculated.
 
-**June temperatures:**
+**June temperatures**
 
 ![June_temps](https://github.com/Nusratnimme/surfs_up/blob/main/Resources/June_Temp_df.png)
 
-**December temperatures:**
+**December temperatures**
 
 ![Dec_temps](https://github.com/Nusratnimme/surfs_up/blob/main/Resources/Dec_Temp_df.png)
 
@@ -65,11 +65,11 @@ In order to determine if the surfing and ice cream shop business will be sustain
 
 To this end, two DataFrames were created containing both precipitation and temperatures. Next, summary statistics was calculated.
 
-**Summary statistics of precipitation and temperature for June:**
+**Summary statistics of precipitation and temperature for June**
 
 ![June-prcp_temp](https://github.com/Nusratnimme/surfs_up/blob/main/Resources/June_prcp_temp.png)
 
-**Summary statistics of precipitation and temperature for December:**
+**Summary statistics of precipitation and temperature for December**
 
 ![Dec_prcp_temp](https://github.com/Nusratnimme/surfs_up/blob/main/Resources/Dec_prcp_temp.png)
 
