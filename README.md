@@ -15,7 +15,7 @@ I need funds from investor W. Avy, known for his love of surfing, to open a surf
 
 ## Purpose
 
-The main objective of this exercise is to analyze the temperature patterns of Oahu for the months of June and December. Using Python, Pandas functions and methods, and SQLAlchemy, the date column of the Measurements table will be filtered from the **hawaii.sqlite** database to retrieve recorded temperatures for both months.
+The main objective of this exercise is to analyze the temperature patterns of Oahu for the months of June and December. Using Python, Pandas functions and methods, and SQLAlchemy, the date column of the Measurements table will be filtered on from the **hawaii.sqlite** database to retrieve recorded temperatures for both months.
 
 
 ## Results
@@ -74,8 +74,8 @@ To this end, two DataFrames were created containing both precipitation and tempe
 ![Dec_prcp_temp](https://github.com/Nusratnimme/surfs_up/blob/main/Resources/Dec_prcp_temp.png)
 
 
-As can be seen from the tables above, mean precipitation are higher in December than in June indicating a more rainy weather in the latter. Combining this with findings for temparature, we can conclude that December will have fewer days suitable for surfing, as well as ice-cream, than in June.
+As can be seen from the tables above, mean precipitation are higher in December than in June indicating a more rainy weather in the former. Combining this with findings for temparature, we can conclude that December will have fewer days suitable for surfing, as well as ice-cream, than in June.
 
-But the question is, how many days in each month can be considered _surfing-friendly_?. If we arbitrarily decide that temparature above 70 fahrenheit and precipitation less than 1 inch are conducive to surfing and enjoying ice-cream, we find that, on an average, **26 days in June and 19 days in December are surfing-friendly**.
+But the question is, how many days in each month can be considered _surfing-friendly_?. If we arbitrarily decide that temparature above 70 fahrenheit and precipitation less than 1 inch are conducive to surfing and enjoying ice-cream, we find that, on an average, **26 days in June and 19 days in December are surfing-friendly** (see "SurfsUp_Challenge.ipynb").
 
 To conclude, Oahu definitely offers an ideal weather for a surf n' shake business!
